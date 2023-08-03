@@ -15,7 +15,7 @@ int main() {
     while(nTerm <= n) {
         cout << nTerm << ", ";
         t1 = t2;
-        t2 = nextTerm;
+        t2 = nTerm;
         nTerm = t1 + t2;
     }
     return 0;
